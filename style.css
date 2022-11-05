@@ -56,3 +56,9 @@ body {
 .cell[data-player="2"] {
   background-color: blue;
 }
+
+#state {
+  color: white;
+  text-align: center;
+  
+}
