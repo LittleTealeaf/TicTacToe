@@ -1,64 +1,57 @@
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #383838;
-  height: 100vh;
-  width: 100vw;
-  padding: 0;
-  margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #383838;
+	height: 100vh;
+	width: 100vw;
+	padding: 0;
+	margin: 0;
 }
 
 .card {
-
 }
 
 .board {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
-
 
 .cell {
-  width: 100px;
-  height: 100px;
-  background-color: #999999;
-  transition-duration: 0.5s;
-  margin: 5px;
+	width: 100px;
+	height: 100px;
+	background-color: #999999;
+	transition-duration: 0.5s;
+	margin: 5px;
 }
 
-
-
-
 .cell:not([data-player]) {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .cell:hover:not([data-player]) {
-
-  background-color: #888888;
+	background-color: #888888;
 }
 
 .cell[data-player="1"] {
-  background-color: red;
+	background-color: red;
 }
 
 .cell[data-player="2"] {
-  background-color: blue;
+	background-color: blue;
 }
 
 #state {
-  color: white;
-  text-align: center;
-  
+	color: white;
+	text-align: center;
 }
